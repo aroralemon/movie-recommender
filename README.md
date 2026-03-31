@@ -86,6 +86,49 @@ python main.py
 
 ---
 
+## Troubleshooting
+
+### 1. Module Not Found Error
+If you see errors like:
+```
+ModuleNotFoundError: No module named 'pandas'
+```
+Run:
+```
+pip install pandas scikit-learn
+```
+
+---
+
+### 2. File Not Found Error
+If you see:
+```
+FileNotFoundError: movies.csv not found
+```
+Make sure:
+- `movies.csv` is in the same folder as `main.py`
+- File name is correct (case-sensitive)
+
+---
+
+### 3. Movie Not Found
+If the program prints:
+```
+Movie not found!
+```
+- Enter a movie exactly as in the dataset  
+- Example: `Batman Begins`  
+
+---
+
+### 4. Python Command Not Working
+Try:
+```
+python3 main.py
+```
+
+---
+
 ## Limitations
 - Uses a small dataset  
 - Recommendations are based only on genre  
@@ -101,10 +144,19 @@ python main.py
 
 ---
 
-## Author
-Shreya Arora  
+## Credits
+- **Student:** Shreya Arora
+- **Registration:** 25bce10621
+- **Institution:** Vellore Institute of Technology, Bhopal
+- **Course:** Fundamentals of AI & ML
+- **Date:** March 2026
 
 ---
 
 ## Conclusion
 This project demonstrates how machine learning techniques such as cosine similarity can be applied to build a basic recommendation system. It serves as a foundation for developing more advanced recommender systems.
+
+---
+
+## License
+This project is developed for academic purposes only.
